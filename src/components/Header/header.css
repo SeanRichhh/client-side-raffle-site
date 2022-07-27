@@ -7,6 +7,7 @@ body{
 }
 h1{
     color:#00A8E8;
+    font-size: 45px;
 }
 li{
     list-style: none;
@@ -20,10 +21,15 @@ li{
 
 .nav-container{
     background-color: #00171F;
+    border-bottom: solid 5px #00A8E8 ;
 }
 
 .nav-btn{
     color: white;
     background-color: #00171F;
     font-size: 17px;
+    margin: 20px;
+}
+.nav-btn:hover {
+    color: #00A8E8 ;
 }

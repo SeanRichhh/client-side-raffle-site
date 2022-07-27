@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding:0
+}
+body{
+    background-color: #Ffffff;
+}
+h1{
+    color:#00A8E8;
+}
+li{
+    list-style: none;
+}
+.grid-auto{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.nav-container{
+    background-color: #00171F;
+}
+
+.nav-btn{
+    color: white;
+    background-color: #00171F;
+    font-size: 17px;
+}

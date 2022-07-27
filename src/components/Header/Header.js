@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <div className="nav-container">
             <div>
-                <img src={logo} alt=''/>
+                <img className='nav-logo' src={logo} alt='logo for the site'/>
                 <ul className='grid-auto'>
                     <li>
                         <button onClick={navigateHome} className='nav-btn'>HOME</button>

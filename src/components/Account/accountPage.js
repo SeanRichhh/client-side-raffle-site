@@ -5,18 +5,14 @@ import Registeration from './Registeration.js'
 const accountPage = () =>{
     return(
        <div className="account-page-container">
-        <div className="two-row-grid">
-            <div className="two-column-grid-account">
-                <h2>MY ACCOUNT</h2>
-                <></>
+            <div className="two-column-grid-accoun container-top-page-account">
+                <h3 className='title-account'>MY ACCOUNT</h3>
+                <div></div>
             </div>
             <div className="two-column-grid-account">
                 <Login/>
-                <Registeration/>
-                
+                <Registeration/>  
             </div>
-        </div>
-
        </div>
     )
 }

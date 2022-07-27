@@ -24,6 +24,10 @@ li{
     border-bottom: solid 5px #00A8E8 ;
 }
 
+.nav-logo{
+    margin-top: 20px;
+}
+
 .nav-btn{
     color: white;
     background-color: #00171F;

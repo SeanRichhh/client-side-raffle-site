@@ -10,3 +10,19 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 }
 
+/* Top of Account page */
+
+h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.title-account{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-top-page-account{
+    border-bottom: solid 2px black;
+    margin-bottom: 30px;
+}

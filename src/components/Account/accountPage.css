@@ -1,0 +1,15 @@
+.account-page-container{
+display: grid;
+grid-template-columns: 1000px;
+place-content: center;
+margin-top: 15px;
+}
+
+.two-column-grid-account{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}

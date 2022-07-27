@@ -1,5 +1,6 @@
 import '../Header/header.css'
-import { Routes,Route,useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+import logo from '../../assets/logo.jpg'
 
 const Header = () => {
     const navigate = useNavigate()
@@ -15,7 +16,7 @@ const Header = () => {
     return(
         <div className="nav-container">
             <div>
-                <h1>ComputerGiveAWAYS</h1>
+                <img src={logo} alt=''/>
                 <ul className='grid-auto'>
                     <li>
                         <button onClick={navigateHome} className='nav-btn'>HOME</button>

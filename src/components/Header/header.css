@@ -15,8 +15,8 @@ li{
 .grid-auto{
     display: grid;
     grid-auto-flow: column;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .nav-container{

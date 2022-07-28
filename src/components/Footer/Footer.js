@@ -3,10 +3,10 @@ import '../Footer/footer.css'
 const Footer = () => {
     return(
         <div className="footer-container">
-            <div>
+            <div className='footer-icon-container'>
                 <h3>KEEP IN TOUCH</h3>
             </div>
-            <div>
+            <div className='footer-icon-container'>
                 <ul className="grid-footer">
                     <li>
                     <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" width={30}>
@@ -45,9 +45,9 @@ const Footer = () => {
                 </li>
                 </ul>
             </div>
-            <div>
+            <div className='contact-footer'>
                 <h3>Contact Us</h3>
-                <p>Address</p>
+                <p>Cobalt Park Way Cobalt Park, Newcastle Upon Tyne, United Kingdom, NE28 9EJ</p>
                 <p>info@SRTech.co.uk</p>
                 <p>Contact us on our socials or by our email</p>
                 <p>Copyright SRTech Limted</p>

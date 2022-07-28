@@ -1,23 +1,26 @@
-
 const Login = () => {
     return (
-        <section>
+        <section className="form-container">
             <div>
                 <h3>Login</h3>
             </div>
             <form>
-                <label> Email Address:
-                    <input
+                <div className="login-form-grid">
+                <label>Enter Email Address</label>
+                <input
+                   className="input-text"
                     type='text'
-                    value=''
+                    placeholder='Email'
                     />
-                </label>
-                <label> Password : 
-                    <input
+                </div>
+                <div className="login-form-grid">
+                <label>Enter Password</label>
+                <input
+                    className="input-text"
                     type='text'
-                    value=''
+                    placeholder='Password'
                     />
-                </label>
+                </div>
                 <button>Login</button>
                 <p>Lost your password?</p>
             </form>

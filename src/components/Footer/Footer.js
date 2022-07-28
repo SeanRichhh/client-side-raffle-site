@@ -50,7 +50,7 @@ const Footer = () => {
                 <p>Cobalt Park Way Cobalt Park, Newcastle Upon Tyne, United Kingdom, NE28 9EJ</p>
                 <p>info@SRTech.co.uk</p>
                 <p>Contact us on our socials or by our email</p>
-                <p>Copyright SRTech Limted</p>
+                <p><strong>Copyright SRTech Limted</strong></p>
             </div>
            
         </div>

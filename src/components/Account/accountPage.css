@@ -1,5 +1,6 @@
 .account-page-container{
 display: grid;
+grid-template-rows: 100px auto;
 grid-template-columns: 1000px;
 place-content: center;
 margin-top: 15px;
@@ -25,4 +26,26 @@ h3{
 .container-top-page-account{
     border-bottom: solid 2px black;
     margin-bottom: 30px;
+}
+
+.form-container{
+    border: solid 2px black;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: min-content;
+}
+
+/*  Login form */
+
+.login-form-grid{
+    display: grid;
+    grid-auto-flow: row;
+    margin: 20px;
+    place-content: center;
+
+}
+.input-text{
+    width: 200px;
+    display: grid;
 }
